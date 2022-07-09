@@ -26,4 +26,4 @@ Output:
 {'prediction': 'SQL Injection', 'confidence': 91.18}
 ```
 
-You can specify the output by using print(result.prediction) or print(result.confidence).
+You can specify the output by using `print(result.prediction)` or `print(result.confidence)`.
