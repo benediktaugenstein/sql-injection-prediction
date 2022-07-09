@@ -4,7 +4,7 @@ This python module can be used to differentiate between normal usernames or pass
 
 ## Usage example
 
-Import InjectionPredictor-class (and create the IP-object):
+Import the InjectionPredictor-class (and create the IP-object):
 ```
 from injection_classifier.classifiers import InjectionPredictor
 IP = InjectionPredictor()
