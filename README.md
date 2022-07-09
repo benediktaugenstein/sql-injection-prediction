@@ -25,13 +25,13 @@ text = "' or 1=1 '"
 
 Use the `predict`-function to predict whether the text is a SQL-Injection or a normal username/password:
 ```
-result = IP.predict(' or 1=1 ')
+result = IP.predict(text)
 print(result)
 ```
 
 Output:
 ```
-{'prediction': 'SQL Injection', 'confidence': 91.18}
+{'prediction': 'SQL Injection', 'confidence': 98.72}
 ```
 
 You can specify the output by using `print(result['prediction'])` or `print(result['confidence'])`.
