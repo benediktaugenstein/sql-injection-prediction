@@ -1,4 +1,4 @@
-# sql-injection-prediction
+# sql-injection-predictio
 
 This python module can be used to differentiate between normal usernames or passwords and SQL-Injection attempts.
 
