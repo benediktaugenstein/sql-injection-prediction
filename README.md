@@ -2,7 +2,7 @@
 
 This python module can be used to differentiate between normal usernames or passwords and SQL-Injection attempts.
 
-#Usage example
+## Usage example
 
 Import InjectionPredictor-class (and create the IP-object):
 ```
