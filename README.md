@@ -1,6 +1,6 @@
 # sql-injection-prediction
 
-This python module can be used to differentiate between normal usernames or passwords and SQL-Injection attempts.
+This python module can be used to differentiate between normal usernames or passwords and SQL Injection-attempts.
 
 ## Setup
 
