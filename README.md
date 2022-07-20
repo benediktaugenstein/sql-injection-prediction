@@ -8,7 +8,7 @@ This python module can be used to differentiate between normal usernames or pass
 2. Add the module to the folder in which your other modules/libraries are kept (numpy, pandas etc.)
 3. You should be good to go. Take a look at the usage example to find out how to use this module.
 
-Important note: TensorFlow has to be installed for this module to work.
+Important note: scikit-learn and TensorFlow have to be installed for this module to work.
 
 ## Usage example
 
