@@ -6,6 +6,7 @@ class InjectionPredictor:
 		os.environ['TF_CPP_MIN_LOG_LEVEL'] = '4'
 
 		dirname = os.path.dirname(__file__)
+		self.model_path = os.path.join(dirname, 'models/injection_classifier/injection_classifier_model.h5')
 		self.load_model_path = os.path.join(dirname, 'models/injection_classifier/lm.pickle')
 		self.tokenizer_path = os.path.join(dirname, 'models/injection_classifier/injection_classifier_tokenizer.pickle')
 		self.ps_path = os.path.join(dirname, 'models/injection_classifier/injection_classifier_ps.pickle')
@@ -20,7 +21,9 @@ class InjectionPredictor:
 		with open(self.ohe_path, 'rb') as handle:
 			self.ohe = pickle.load(handle)
 
-		self.model = self.load_model("injection_classifier_model.h5")
+		#self.model = self.load_model("injection_classifier_model.h5")
+		import tensorflow as tf
+		self.model = tf.keras.models.load_model(self.model_path)
 
 	def predict(self, user_inp_initial):
 
