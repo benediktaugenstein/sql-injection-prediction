@@ -8,7 +8,7 @@ This python module can be used to differentiate between normal usernames or pass
 2. Add the module ('sql-injection-prediction') to the folder in which your other modules/libraries are kept (numpy, pandas etc.)
 3. You should be good to go. Take a look at the usage example to find out how to use this module.
 
-Important note: NumPy, scikit-learn and TensorFlow have to be installed for this module to work (the module has only been tested with TensorFlow and Keras version 2.7.0, other versions may not work).
+Important note: NumPy, scikit-learn and TensorFlow have to be installed for this module to work (the module has only been tested with TensorFlow (and Keras) version 2.8.0, other versions may not work).
 
 ## Usage example
 
